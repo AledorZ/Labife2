@@ -7,9 +7,5 @@ public class BacteriaSript : MonoBehaviour
     public bool bacteriaison = false;
 
 
-    public void Update()
-    {
-        bacteriaison = false;
-    }
-
+    
 }

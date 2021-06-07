@@ -14,18 +14,20 @@ public class GetBacteria : MonoBehaviour
 
     private void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.name == "Swap")
+        if (col.collider.tag == "Pickupable")
         {
-            //BacteriaSript bacteria = GameObject.Find("Swap").GetComponent<BacteriaSript>();
-            BacteriaSript bacteria = gameObject.GetComponent<BacteriaSript>();
+            BacteriaSript bacteria = GameObject.Find("Swap").GetComponent<BacteriaSript>();
+            gameObject.GetComponent<BacteriaSript>();
 
-            if (bacteria.bacteriaison == false)
-            {
-                Debug.Log("GotIt");
-
+            if (bacteria.bacteriaison == false) {
+                Debug.Log("In");
             }
+            
+            }
+
+           
         }
     }
-}
+
 
    
