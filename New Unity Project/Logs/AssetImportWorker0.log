@@ -15,11 +15,11 @@ C:/Users/user/Desktop/Labife2/New Unity Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-1072
+1081
 Successfully changed project path to: C:/Users/user/Desktop/Labife2/New Unity Project
 C:/Users/user/Desktop/Labife2/New Unity Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 87.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.10f1 (b15f561b2cef)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Resources/UnitySubsystems
@@ -35,8 +35,476 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004466 seconds.
+Registered in 0.004534 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 80.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.909 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2909ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1034ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (425ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (415ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010074 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.757 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2758ms)
+		BeginReloadAssembly (373ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (2231ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (891ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (117ms)
+			SetupLoadedEditorAssemblies (734ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (583ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1544 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.9 MB.
+System memory in use after: 84.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2015.
+Total: 5.902200 ms (FindLiveObjects: 0.377700 ms CreateObjectMapping: 0.225300 ms MarkObjects: 4.841800 ms  DeleteObjects: 0.453500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Tube samples.FBX
+  artifactKey: Guid(c449206050bf89a4cb5d680d3b5970dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Tube samples.FBX using Guid(c449206050bf89a4cb5d680d3b5970dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925babc6dbb179c9cd9ac0db230528dc') in 0.397425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Files 3.FBX
+  artifactKey: Guid(c246baf06ff504f49828161544ab7894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Files 3.FBX using Guid(c246baf06ff504f49828161544ab7894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eda8065d8f54afedda9bd0710a0e3b3') in 0.098677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Box 1.FBX
+  artifactKey: Guid(7ed10e9328023454685b4f17be54ac0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Box 1.FBX using Guid(7ed10e9328023454685b4f17be54ac0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05a7c2cdd01e8439a5bdceba2b149d4') in 0.045622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Window.FBX
+  artifactKey: Guid(136acac8bef2ad84197f990b853ebd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Window.FBX using Guid(136acac8bef2ad84197f990b853ebd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728cc3a103dd99ea1ce79e4e8868f55d') in 0.069324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Towel.FBX
+  artifactKey: Guid(578c5a0bf6beb294584850f5636c5e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Towel.FBX using Guid(578c5a0bf6beb294584850f5636c5e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91663a7266b42294a5db380c1c3d0a8e') in 0.049661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Laboratory closet 1.FBX
+  artifactKey: Guid(810f820d95fa7bd43946030add811102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Laboratory closet 1.FBX using Guid(810f820d95fa7bd43946030add811102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f4c16cfb0574046add4af9712b416a') in 0.048726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Clinic clothes 2.FBX
+  artifactKey: Guid(33d539b76729af64c9973b65e78e8c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Clinic clothes 2.FBX using Guid(33d539b76729af64c9973b65e78e8c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93e3b974a0c48ba485d142763df6382') in 0.051220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Ceiling.FBX
+  artifactKey: Guid(3e61bb69f48253745bd79e2269db45b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Ceiling.FBX using Guid(3e61bb69f48253745bd79e2269db45b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe07172b50aaa6a3c125a7314d068ec0') in 0.045697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Stool 1.FBX
+  artifactKey: Guid(47f6e4bdfd6ac6c4396991d8cf3cb103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Stool 1.FBX using Guid(47f6e4bdfd6ac6c4396991d8cf3cb103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a79137a26118173035b1be43cb061f5') in 0.061963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Container 2.FBX
+  artifactKey: Guid(661549472d4baec48b23945e79cddb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Container 2.FBX using Guid(661549472d4baec48b23945e79cddb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001de44c52e8c5f814f71ef2942f1677') in 0.042175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Laboratory closet 2.FBX
+  artifactKey: Guid(60ec101bca7acfa40802927fa6f8020e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Laboratory closet 2.FBX using Guid(60ec101bca7acfa40802927fa6f8020e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41cbc9499b599d1af5dd8d61d537ab2c') in 0.066170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001205 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Extinguisher.FBX
+  artifactKey: Guid(bdf6d4ceaf49c664fb96402fe86d67ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Extinguisher.FBX using Guid(bdf6d4ceaf49c664fb96402fe86d67ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5d1a3da3e50e5fca21bf0f6c648171') in 0.068718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000580 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Paper 2.FBX
+  artifactKey: Guid(f711a9d05f6063542b18e8b082e02d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Paper 2.FBX using Guid(f711a9d05f6063542b18e8b082e02d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111139d6eea3f7b833d5c976c0e9c374') in 0.065728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Medicine 2.FBX
+  artifactKey: Guid(025b964a0540fe545a5ff9971b7c2c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Medicine 2.FBX using Guid(025b964a0540fe545a5ff9971b7c2c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ec133e3416457fc7fad77cbc252e62') in 0.055734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000825 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Doors 2.FBX
+  artifactKey: Guid(a8495af0c16ec0042a03f9449960b334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Doors 2.FBX using Guid(a8495af0c16ec0042a03f9449960b334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8398fb964d0737e991444dc8bf194f6') in 0.101080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Medicine 7.FBX
+  artifactKey: Guid(a609212090a45b54380d5b9e275329f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Medicine 7.FBX using Guid(a609212090a45b54380d5b9e275329f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a07543b10eb45e5bd330170c7825e96') in 0.038037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Wall 1.FBX
+  artifactKey: Guid(419fe10a7cf776f41b7cf4e42ead95c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Wall 1.FBX using Guid(419fe10a7cf776f41b7cf4e42ead95c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab96d901b9719be897b71d2476b44489') in 0.039724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000578 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Structure.FBX
+  artifactKey: Guid(62ec5823ddf00864bb7b864cac21d30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Structure.FBX using Guid(62ec5823ddf00864bb7b864cac21d30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bdd0d9c05d09f0ba246d15d7be3b7b') in 0.045118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Medicine 1.FBX
+  artifactKey: Guid(1c3c824cb5bf0284d92e0a73cfb4a546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Medicine 1.FBX using Guid(1c3c824cb5bf0284d92e0a73cfb4a546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639675dc8085ba093937e124a9789fc6') in 0.045755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Medicine 3.FBX
+  artifactKey: Guid(a04cf1614f0553644ad7a2f6e5e17201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Medicine 3.FBX using Guid(a04cf1614f0553644ad7a2f6e5e17201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a90e0791535e84bc934f965ccf05563') in 0.035029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Basinstand.FBX
+  artifactKey: Guid(b19596298a2791a4eaa4652268a1a6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Basinstand.FBX using Guid(b19596298a2791a4eaa4652268a1a6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c9b2b0903b62dca45f22b71bdde938') in 0.036184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Poster 2.FBX
+  artifactKey: Guid(9b879d5c85c76a842a128770b25ad755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Poster 2.FBX using Guid(9b879d5c85c76a842a128770b25ad755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ab0bee6bebb7c8f8e1d1a6ef66dc4a') in 0.038562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000642 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Restricted area.FBX
+  artifactKey: Guid(03e6022fd0d13204992cfeede0b129b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Restricted area.FBX using Guid(03e6022fd0d13204992cfeede0b129b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f9e62efd6bc8d17d408a7f8a518ba9') in 0.032920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Medicine 5.FBX
+  artifactKey: Guid(2b319783eb314464ebc64b9a2cab90fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Medicine 5.FBX using Guid(2b319783eb314464ebc64b9a2cab90fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aef1df6bd5eb88f968e80fecbc5a3b1') in 0.039517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Wall 4.FBX
+  artifactKey: Guid(a6b54d9d6a277b948953f9161d71ad9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Wall 4.FBX using Guid(a6b54d9d6a277b948953f9161d71ad9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd35a13739ff923703ad9cd8bc77c2fe') in 0.030780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Fire alarm.FBX
+  artifactKey: Guid(e8afdd1df8c7d2f4985357657db5008d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Fire alarm.FBX using Guid(e8afdd1df8c7d2f4985357657db5008d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e74e10a28f55298ae1ca37c472dab0') in 0.029718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Files 1.FBX
+  artifactKey: Guid(697b3f92432f2074c94a048c1e2fce73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Files 1.FBX using Guid(697b3f92432f2074c94a048c1e2fce73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740e3d5eb7ff85ae1fe576199b9afd7e') in 0.038113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Box 2.FBX
+  artifactKey: Guid(26ba5b06d60421f469e9616a6706f7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Box 2.FBX using Guid(26ba5b06d60421f469e9616a6706f7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cee069a385faed550b71f7b3149d487') in 0.052221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000712 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Medicine 6.FBX
+  artifactKey: Guid(b4e88b74905738d4083af03f1e166e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Medicine 6.FBX using Guid(b4e88b74905738d4083af03f1e166e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa167bb98b0a7f380fc6bae775a848a') in 0.096006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Wall 3.FBX
+  artifactKey: Guid(edcd298b8a5046f4fbf043c225e65d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Wall 3.FBX using Guid(edcd298b8a5046f4fbf043c225e65d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccfc1d1b022420812b7e82b71e2bad34') in 0.107974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Clock.FBX
+  artifactKey: Guid(ca2765a585e029d46b3ceefa4e5e55b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Clock.FBX using Guid(ca2765a585e029d46b3ceefa4e5e55b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77331af9d56fef9cf698b895583f1108') in 0.144199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Papers.FBX
+  artifactKey: Guid(20402e745deb71142ad3030cc165fa7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Papers.FBX using Guid(20402e745deb71142ad3030cc165fa7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5003de86728ef58d5e7ffe45e4356c') in 0.178447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000593 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Clinic clothes 1.FBX
+  artifactKey: Guid(96d3d34cee015e64abf4cc8204442809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Clinic clothes 1.FBX using Guid(96d3d34cee015e64abf4cc8204442809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdc6b2df7f781ba7fd6e150dfd37ed0') in 0.043101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Table 1.FBX
+  artifactKey: Guid(712f27c1189b4aa4e8fbea7ff9cd5460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Table 1.FBX using Guid(712f27c1189b4aa4e8fbea7ff9cd5460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466b16ce49c4ae1efb2db6a1482d5c7b') in 0.037851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Table 2.FBX
+  artifactKey: Guid(8757786c4d81f0a4d927690c7b6c20e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Table 2.FBX using Guid(8757786c4d81f0a4d927690c7b6c20e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de73fa4d082ff58670d25c24806f1503') in 0.074360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Files 2.FBX
+  artifactKey: Guid(38e849d83cb773f429eeec8cf902a795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Files 2.FBX using Guid(38e849d83cb773f429eeec8cf902a795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeaf04cc7d51345fb1080f150fa78b64') in 0.036355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Table 3.FBX
+  artifactKey: Guid(988dd586d741d844c8e536cd65a14a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Table 3.FBX using Guid(988dd586d741d844c8e536cd65a14a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ba829fb103a09c5c2cb02969b9d95b') in 0.033839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Container 3.FBX
+  artifactKey: Guid(e61e51fd9c225ef4d98e5dd768b9d709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Container 3.FBX using Guid(e61e51fd9c225ef4d98e5dd768b9d709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1a4af868136ce072e3bbc3f9dcd938') in 0.054595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Container 4.FBX
+  artifactKey: Guid(0641453df73257f42af7223ef6c39b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Container 4.FBX using Guid(0641453df73257f42af7223ef6c39b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bdffac397e1f77026eb3c0de05b64a') in 0.031837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Paper.FBX
+  artifactKey: Guid(15ace830063cf084ebebf47a63175c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Paper.FBX using Guid(15ace830063cf084ebebf47a63175c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f35fe43673ad86f28a0b13e882942b3') in 0.034903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Laboratory closet 3.FBX
+  artifactKey: Guid(2b8cca1661dda4d4fb32ce8a5b89aace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Laboratory closet 3.FBX using Guid(2b8cca1661dda4d4fb32ce8a5b89aace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c44fa906a625a81f7ea872badc8468') in 0.071415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Wall 2.FBX
+  artifactKey: Guid(25439329e8c065d4fb11ab41ab03d5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Wall 2.FBX using Guid(25439329e8c065d4fb11ab41ab03d5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32bde618cc5c886174d4bc44b3ff007') in 0.029476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Microscope.FBX
+  artifactKey: Guid(8c4db56eaebf8c642a6409869f068de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Microscope.FBX using Guid(8c4db56eaebf8c642a6409869f068de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe470aea81e53f91a01521caa63845b') in 0.042107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Exit.FBX
+  artifactKey: Guid(3003b24b81dff2046a6d15b098808ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Exit.FBX using Guid(3003b24b81dff2046a6d15b098808ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749b6aa7907967ce9e1f293a482adb7a') in 0.033438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000781 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Screen.FBX
+  artifactKey: Guid(59a84c4ad84cb2e46a25d7de3425abed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Screen.FBX using Guid(59a84c4ad84cb2e46a25d7de3425abed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1adda74578650a0bbff22211ccae446') in 0.036149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Container 5.FBX
+  artifactKey: Guid(d8fbabe69360a3448a385e1f8cea8fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Container 5.FBX using Guid(d8fbabe69360a3448a385e1f8cea8fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43712351c22ade3cd53cf867506ee6fe') in 0.036825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Poster 1.FBX
+  artifactKey: Guid(ea4e5a8fd013895479fffad23122b45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Poster 1.FBX using Guid(ea4e5a8fd013895479fffad23122b45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51540cc3d309bc1cc6d8f74490934081') in 0.033462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/socket.FBX
+  artifactKey: Guid(c11b85d04f97d0b4f94e0496ff28e183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/socket.FBX using Guid(c11b85d04f97d0b4f94e0496ff28e183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186d7be41439073b032f9f20f1ae15ee') in 0.036960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Air conditioner.FBX
+  artifactKey: Guid(7b173c186dc283f46877363d9213702a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Air conditioner.FBX using Guid(7b173c186dc283f46877363d9213702a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e26d751e690666636a19c16d780e646') in 0.041934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Container 1.FBX
+  artifactKey: Guid(9a7b65f01521a1340ab590bb88f6db33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Container 1.FBX using Guid(9a7b65f01521a1340ab590bb88f6db33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf2bc94d7bd794888988998089ac87f') in 0.035868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Tray.FBX
+  artifactKey: Guid(61fc9dc5abd4cb940ab6ced6ad533fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Tray.FBX using Guid(61fc9dc5abd4cb940ab6ced6ad533fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f86dd6e518af3025b8ca74fd3dc5b7') in 0.038012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001123 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Samples.FBX
+  artifactKey: Guid(a3e1b3094f162be4fb972d2ae1eacd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Samples.FBX using Guid(a3e1b3094f162be4fb972d2ae1eacd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf09bb1c3a5bf22d8d71b9710ec19d9') in 0.141674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models
+  artifactKey: Guid(de098103eda61b94a883ea0759f26c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models using Guid(de098103eda61b94a883ea0759f26c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6111ffcacdbbd515baabc3a7e4c8804b') in 0.012605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Door 1.FBX
+  artifactKey: Guid(c44bb3d909076a34883ae1e12cfd2376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Models/Door 1.FBX using Guid(c44bb3d909076a34883ae1e12cfd2376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f2b0f14d703dbfb8d3da6386631b7f') in 0.094031 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004301 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.171 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1171ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (971ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (332ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.7 MB.
+System memory in use after: 86.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2028.
+Total: 2.430600 ms (FindLiveObjects: 0.178600 ms CreateObjectMapping: 0.052600 ms MarkObjects: 2.008900 ms  DeleteObjects: 0.189400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
