@@ -508,3 +508,445 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 492.368774 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a35c3cddc746e7501c0bd0ed6d4ce') in 0.132048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 316.607719 seconds.
+  path: Assets/Lablife/Lab life/Packages
+  artifactKey: Guid(e22594d43543c1a42bca361e3e20f9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Packages using Guid(e22594d43543c1a42bca361e3e20f9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c50830e2d25fae9a81a28fa25b9393c') in 0.024880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 132.609915 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/Container 2.png
+  artifactKey: Guid(5f58cf853597c0a40ae39a27af9df94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/Container 2.png using Guid(5f58cf853597c0a40ae39a27af9df94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee2ef72165364176bd031026f2bbb46') in 0.136701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/plugs N.png
+  artifactKey: Guid(c5b07e7d7b5f4bf45aee682673da721c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/plugs N.png using Guid(c5b07e7d7b5f4bf45aee682673da721c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915d59345d0f107918f17b9e5f98196b') in 0.060909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/medicine 4.png
+  artifactKey: Guid(29448609fa746da4aaa499d4ab627dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/medicine 4.png using Guid(29448609fa746da4aaa499d4ab627dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67f23bed9c68813a7dabaac97a734b9') in 0.029357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000582 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/firealarm.png
+  artifactKey: Guid(9ab76f417fc7a294f92f8fe0af3e6ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/firealarm.png using Guid(9ab76f417fc7a294f92f8fe0af3e6ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663de94d9ef2e3b7c459fa3d883b39fc') in 0.029276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000752 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/medicine 2.png
+  artifactKey: Guid(6f308a1b1ff5a384398badc9e89dc871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/medicine 2.png using Guid(6f308a1b1ff5a384398badc9e89dc871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293c02e7d12b92a802b0b07242ea124d') in 0.028147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/tray.png
+  artifactKey: Guid(23a71ee29aa7d7348b6362aa019e754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/tray.png using Guid(23a71ee29aa7d7348b6362aa019e754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd341cd58f7c6ac2accf016923b363593') in 0.028969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/hospital wood 1.png
+  artifactKey: Guid(1898a3ccc645a3f498d1deef246d1a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/hospital wood 1.png using Guid(1898a3ccc645a3f498d1deef246d1a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25965a5958e96d7980664a03976486a3') in 0.029885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/structure.png
+  artifactKey: Guid(61572f624243e3f4fb4d43c58230bc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/structure.png using Guid(61572f624243e3f4fb4d43c58230bc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99d6017652c9929a5a2b4fd415851d8') in 0.030785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/microscope.png
+  artifactKey: Guid(6f96f66a23760d042acfe3bc622fbee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/microscope.png using Guid(6f96f66a23760d042acfe3bc622fbee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6487885b92eab723c9035fe45e4ab1df') in 0.027604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/firealarm N.png
+  artifactKey: Guid(ded20c388e0b5024fb5f4b1b41e34d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/firealarm N.png using Guid(ded20c388e0b5024fb5f4b1b41e34d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7779bdd587f580c6bcaaea2777835b5a') in 0.044643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/Extinguisher.png
+  artifactKey: Guid(a30b1bd39e424614fa9f02591f7f094e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/Extinguisher.png using Guid(a30b1bd39e424614fa9f02591f7f094e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f12eefe2daf2ff29a27582de2990ab3') in 0.034125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/medicine 5.png
+  artifactKey: Guid(06f76e3d99415e241933808b7dc1e410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/medicine 5.png using Guid(06f76e3d99415e241933808b7dc1e410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a45b1783a0f0e6727ad9cdceecf224') in 0.027837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/floor 2 N.png
+  artifactKey: Guid(cc410da49e543b34a82ef1db9e58f5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/floor 2 N.png using Guid(cc410da49e543b34a82ef1db9e58f5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886458b445c262766293731bb0639aad') in 0.044155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/posters.png
+  artifactKey: Guid(452af3426cbb57b43a0ba2c982c2e174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/posters.png using Guid(452af3426cbb57b43a0ba2c982c2e174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1412937f778e26590fea1d32f9ebdf') in 0.031184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/plugs.png
+  artifactKey: Guid(2801898cd25b4df49873dbf102c62028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/plugs.png using Guid(2801898cd25b4df49873dbf102c62028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a44e27a82e5459af42b36c7e0b77cf3') in 0.029213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/paper.png
+  artifactKey: Guid(c347bb5b4b6a22744af764ca2db24d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/paper.png using Guid(c347bb5b4b6a22744af764ca2db24d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f630acc51d3764405c09c6e8e21e50f2') in 0.029089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/metallic.png
+  artifactKey: Guid(7aa9d51d044507e4f94bd82ff46f5e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/metallic.png using Guid(7aa9d51d044507e4f94bd82ff46f5e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6d8d77e2c24354d6e5916cf3b96052') in 0.029036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/metallic blue.png
+  artifactKey: Guid(0ff6eb8f3092aad42bfd90e38984a623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/metallic blue.png using Guid(0ff6eb8f3092aad42bfd90e38984a623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074b36a1f8b07aa8a1ee7b85540a8654') in 0.030385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/medicine 1.png
+  artifactKey: Guid(992c56b295777b34c84e2ca0f57fda02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/medicine 1.png using Guid(992c56b295777b34c84e2ca0f57fda02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5206cde73568e8de5d4f45f66acd2751') in 0.029095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/towel.png
+  artifactKey: Guid(b3f6ca4bf1b8cac4bb28fd7879e19b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/towel.png using Guid(b3f6ca4bf1b8cac4bb28fd7879e19b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f740bf1eeefdc3558b0e5622096435d') in 0.029927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/information.png
+  artifactKey: Guid(1e83db4bfcbd83142a974108134252e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/information.png using Guid(1e83db4bfcbd83142a974108134252e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba3ea7c77cc82ddae14a9ad20301568') in 0.030674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/files.png
+  artifactKey: Guid(b65376de509b9ad45a83c094b6b5e72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/files.png using Guid(b65376de509b9ad45a83c094b6b5e72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b137ad27a0189d5083cf11628502e52') in 0.026541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/medicine 6.png
+  artifactKey: Guid(28fcedd601b3b6d4f952fba51e6302a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/medicine 6.png using Guid(28fcedd601b3b6d4f952fba51e6302a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697c58f6fb26b18ea4220bd6e49d4b17') in 0.036439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/Tap.png
+  artifactKey: Guid(9977ed91270b0bd4a95a723b9196cf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/Tap.png using Guid(9977ed91270b0bd4a95a723b9196cf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bcae9a1834e1297d87d1abf80aeb6ac') in 0.028438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/floor 2.png
+  artifactKey: Guid(f9a3aa3306e617b42b9f1be37abe11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/floor 2.png using Guid(f9a3aa3306e617b42b9f1be37abe11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034d705bf5d754afde4d76adbd46d53e') in 0.041253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/medicine 3.png
+  artifactKey: Guid(4ceba520a5c17f540b5db4023d3d4ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/medicine 3.png using Guid(4ceba520a5c17f540b5db4023d3d4ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffaef7f907990a8cbfaf612dce8308e4') in 0.034833 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014089 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.702 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2703ms)
+		BeginReloadAssembly (356ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (97ms)
+		EndReloadAssembly (2106ms)
+			LoadAssemblies (286ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (752ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (683ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (515ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (43ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1544 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.7 MB.
+System memory in use after: 117.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2425.
+Total: 4.759700 ms (FindLiveObjects: 0.499100 ms CreateObjectMapping: 0.156500 ms MarkObjects: 3.731300 ms  DeleteObjects: 0.370300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.078677 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/Air conditioner N.png
+  artifactKey: Guid(f13f62e49e0537e4ab1e2c2a787e7664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/Air conditioner N.png using Guid(f13f62e49e0537e4ab1e2c2a787e7664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9d47e40bcc9929aac462ce58166351') in 0.101582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/Clock calendar.png
+  artifactKey: Guid(294cfd376f9c7bf4baceca4d5dcf0868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/Clock calendar.png using Guid(294cfd376f9c7bf4baceca4d5dcf0868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6bb3f8b95107fca20e4e4f2442c2aa') in 0.033858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000539 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/boxes.png
+  artifactKey: Guid(cc3d3965cdd6aff41954c32414da6bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/boxes.png using Guid(cc3d3965cdd6aff41954c32414da6bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6508bf88dd4d2f253329ce01bcb6d31e') in 0.031044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/Asphalt.png
+  artifactKey: Guid(43e2ecb6deac8704981a3ca32105a9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/Asphalt.png using Guid(43e2ecb6deac8704981a3ca32105a9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a577538cc57d61547256d19b5e4a47c') in 0.045632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/Container 1.png
+  artifactKey: Guid(5e5aac505e4ac1241ba5e50d49071c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/Container 1.png using Guid(5e5aac505e4ac1241ba5e50d49071c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b8e3900e2d5df05e7ff8ea2d7e461d') in 0.028651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/box.png
+  artifactKey: Guid(edcdc4700c6b96c408fe04f41ef37ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/box.png using Guid(edcdc4700c6b96c408fe04f41ef37ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64788d68dbe1a89f3eb85087fee501b8') in 0.033058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/clinical fabric.png
+  artifactKey: Guid(2237dc86008e3e244824c9d2275e5012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/clinical fabric.png using Guid(2237dc86008e3e244824c9d2275e5012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d69f14f7d56c2a6630d8fb78f11dca') in 0.031489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000702 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/box N.png
+  artifactKey: Guid(6a4958b0f8848a34ebfd062442d2bd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/box N.png using Guid(6a4958b0f8848a34ebfd062442d2bd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05229adf4814a97493a721d9c59c4f1c') in 0.034585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/clinical fabric 2.png
+  artifactKey: Guid(bad2516634fb9744fa9f45c459d5fde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/clinical fabric 2.png using Guid(bad2516634fb9744fa9f45c459d5fde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcb81718f0e99d56c267503483e930d') in 0.033129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/Air conditioner.png
+  artifactKey: Guid(e2827e70021d4e441afddcd45d94f3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/Air conditioner.png using Guid(e2827e70021d4e441afddcd45d94f3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d085cfa5e6d47c59fdb4a73411708bc') in 0.029387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/boxes N.png
+  artifactKey: Guid(4d10fc46e4077844eb748cab82a230db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/boxes N.png using Guid(4d10fc46e4077844eb748cab82a230db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bde69fe855308ae88130da2fecfab3') in 0.031660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/chair 1.png
+  artifactKey: Guid(dde1627119da8de4aa9dbceaa998a039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Hospital Laboratory Interior/Textures/chair 1.png using Guid(dde1627119da8de4aa9dbceaa998a039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f867e583f0aedb0407e6214b279c7f0') in 0.032823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.490548 seconds.
+  path: Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftFuselageNormals.png
+  artifactKey: Guid(c7e9ae087ac710a4980ed418c192e2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftFuselageNormals.png using Guid(c7e9ae087ac710a4980ed418c192e2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2942f91606921a506317fb939cc5232') in 0.142751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000679 seconds.
+  path: Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur02WhiteAlbedo.png
+  artifactKey: Guid(5d71e30febe908949a93dafb077b4ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur02WhiteAlbedo.png using Guid(5d71e30febe908949a93dafb077b4ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f1825463b2294f7e02c4c232924c98') in 0.042997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/Lablife/Lab life/Assets/UI/1x/1x/Asset 2.png
+  artifactKey: Guid(64133ffa862d66b40a1d23a0b0477840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/UI/1x/1x/Asset 2.png using Guid(64133ffa862d66b40a1d23a0b0477840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f30de7027fa8f28da2450a87eca634') in 0.043205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur03WhiteAlbedo.png
+  artifactKey: Guid(0d0e2aad9fc8ad04ba15c42753f8b797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur03WhiteAlbedo.png using Guid(0d0e2aad9fc8ad04ba15c42753f8b797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8e499153c42c20236b6f1188b5336f') in 0.041225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur01GreyAlbedo.png
+  artifactKey: Guid(9bae725505bdaf5488cd1720e6f829bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur01GreyAlbedo.png using Guid(9bae725505bdaf5488cd1720e6f829bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f074e0b09b58373a02d69ffaa1093d9e') in 0.044593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur03GreyAlbedo.png
+  artifactKey: Guid(2beb3362d4b99ed40890889c97d63cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur03GreyAlbedo.png using Guid(2beb3362d4b99ed40890889c97d63cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6882fa1fa6f26b653596c1b8836b9899') in 0.038076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur02GreyAlbedo.png
+  artifactKey: Guid(da369a9e24c14b04da8e0be4d9fbee0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur02GreyAlbedo.png using Guid(da369a9e24c14b04da8e0be4d9fbee0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d519168e2757b0924542f6db91b5928') in 0.040183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur01WhiteAlbedo.png
+  artifactKey: Guid(a01d24876a1472b408ba8e5f0bf3a23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur01WhiteAlbedo.png using Guid(a01d24876a1472b408ba8e5f0bf3a23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb5aeb7c910fe3647e9211e1276c0c7') in 0.037428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsPropellerOcclusion.png
+  artifactKey: Guid(0ad6f20f99271564d93962d2b51bf9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsPropellerOcclusion.png using Guid(0ad6f20f99271564d93962d2b51bf9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef444cded6f82eeff790d0a97f0438f') in 0.080606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000834 seconds.
+  path: Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetOcclusion.png
+  artifactKey: Guid(a2203213fc4dd244e90e1e9d1862c097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetOcclusion.png using Guid(a2203213fc4dd244e90e1e9d1862c097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505142bb2dafe4163bd332b801a63a69') in 0.075272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000548 seconds.
+  path: Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsPropellerNormals.png
+  artifactKey: Guid(5b834380674bf7e48ade2f253138543f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsPropellerNormals.png using Guid(5b834380674bf7e48ade2f253138543f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28e24d2a27e06d858bf63d40a664731') in 0.130773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetNormals.png
+  artifactKey: Guid(f7c27487b4792e640b8816a7e0e2f5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetNormals.png using Guid(f7c27487b4792e640b8816a7e0e2f5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0160bc2ff9e5f15892bebaaff03e0faa') in 0.120390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Lablife/Lab life/Assets/UI/1x/1x/1x/Asset 1.png
+  artifactKey: Guid(917f6996e4db9874ca90cf8d82b75e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/UI/1x/1x/1x/Asset 1.png using Guid(917f6996e4db9874ca90cf8d82b75e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564a7b1ab1131afcfccb87be9c00ee6d') in 0.041104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftFuselageOcclusion.png
+  artifactKey: Guid(d378ff11c42566d46b0b11cd91eca3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftFuselageOcclusion.png using Guid(d378ff11c42566d46b0b11cd91eca3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4b00972034a1a3f265883cc6093f9a') in 0.088057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Lablife/Lab life/Assets/UI/1x/Asset 1.png
+  artifactKey: Guid(be2b91b44d0677f4886fdca60ce4462c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lablife/Lab life/Assets/UI/1x/Asset 1.png using Guid(be2b91b44d0677f4886fdca60ce4462c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb0ad691a601a75f432968c41de3440') in 0.078621 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.412 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3414ms)
+		BeginReloadAssembly (649ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (2338ms)
+			LoadAssemblies (516ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (736ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (141ms)
+			SetupLoadedEditorAssemblies (736ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (562ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (57ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1545 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 234.5 MB.
+System memory in use after: 234.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2837.
+Total: 5.277500 ms (FindLiveObjects: 0.453500 ms CreateObjectMapping: 0.131100 ms MarkObjects: 4.305600 ms  DeleteObjects: 0.385100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
