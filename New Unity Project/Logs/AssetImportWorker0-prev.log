@@ -158,3 +158,4 @@ Received Import Request.
   path: Assets/Lablife/Lab life/Assets/Material/New Material.mat
   artifactKey: Guid(869fbc8dac508624d9f6fb99dacfbb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Lablife/Lab life/Assets/Material/New Material.mat using Guid(869fbc8dac508624d9f6fb99dacfbb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7281f1e6a399dce36f8f205b732679ea') in 0.039715 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
