@@ -8,7 +8,7 @@ public class TestScore : MonoBehaviour
 {
     public float TimerToWin = 0.0f;
     [SerializeField] bool Agarisin = false;
-    public Tutorial Final;
+    public Tutorial Score;
     public Text Header;
     public Text description;
     public Image background;
@@ -19,9 +19,9 @@ public class TestScore : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Header.text = Final.name;
-        description.text = Final.Discription;
-        background.sprite = Final.background;
+        Header.text = Score.name;
+        description.text = Score.Discription;
+        background.sprite = Score.background;
         
     }
 
