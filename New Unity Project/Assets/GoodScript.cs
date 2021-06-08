@@ -14,6 +14,10 @@ public class GoodScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(isGood == true)
+        {
+            ScoreScritp.Score += 1;
+        }
         
     }
 }
