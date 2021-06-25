@@ -7,6 +7,8 @@ TagManager:
   - Pickupable
   - Camera2
   - Agar
+  - BloodAgar
+  - ClearAgar
   layers:
   - Default
   - TransparentFX
