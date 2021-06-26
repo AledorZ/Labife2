@@ -9,6 +9,7 @@ TagManager:
   - Agar
   - BloodAgar
   - ClearAgar
+  - Placement
   layers:
   - Default
   - TransparentFX
