@@ -12,6 +12,7 @@ TagManager:
   - Placement
   - Playarea
   - CottonTip
+  - AgarTop
   layers:
   - Default
   - TransparentFX
