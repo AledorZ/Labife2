@@ -11,6 +11,7 @@ TagManager:
   - ClearAgar
   - Placement
   - Playarea
+  - CottonTip
   layers:
   - Default
   - TransparentFX
