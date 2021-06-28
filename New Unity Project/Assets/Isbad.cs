@@ -14,7 +14,9 @@ public class Isbad : MonoBehaviour
     }
     public void Destorthis()
     {
-        Destroy(gameObject, 1);
+
+        this.gameObject.SetActive(false);
+       
     }
 
 }

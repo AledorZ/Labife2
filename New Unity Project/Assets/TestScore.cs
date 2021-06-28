@@ -26,7 +26,9 @@ public class TestScore : MonoBehaviour
         Bad = isbad;
 
         GameObject Good = GameObject.FindGameObjectWithTag("Pickupable");
-        Reallygood = Good.GetComponent<GoodScript>();
+        GoodScript good = Good.GetComponent<GoodScript>();
+        Reallygood = good;
+
 
         Header.text = Score.name;
         description.text = Score.Discription;
@@ -47,7 +49,7 @@ public class TestScore : MonoBehaviour
     {
         if (other.CompareTag("Pickupable"))
         {
-            Bad.bad = true;
+           
 
             Reallygood.isGood = true;
             Agarisin = true;
@@ -80,7 +82,7 @@ public class TestScore : MonoBehaviour
         {
             Showup = true;
             Bad.Destorthis();
-            Reallygood.destorthis();
+           // Reallygood.destorthis();
             ScoreScritp.ScoreCOT = +1;
         }
         
