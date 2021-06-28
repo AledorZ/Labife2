@@ -7,7 +7,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 public class TestScore : MonoBehaviour
 {
     public float TimerToWin = 0.0f;
-    [SerializeField] bool Agarisin = false;
+    public bool Agarisin = false;
     public Tutorial Score;
     public Text Header;
     public Text description;
@@ -43,13 +43,18 @@ public class TestScore : MonoBehaviour
         {
             Timer();
         }
+        else
+        {
+            
+            TimerToWin = 0.0f;
+        }
 
     }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Pickupable"))
         {
-           
+            
 
             Reallygood.isGood = true;
             Agarisin = true;
@@ -80,12 +85,27 @@ public class TestScore : MonoBehaviour
         TimerToWin += Time.deltaTime;
         if(TimerToWin >= 3.0f)
         {
-            Reallygood.destorthis();
+            
+           
             Showup = true;
-            Bad.Destorthis();
-           // Reallygood.destorthis();
-            ScoreScritp.ScoreCOT = +1;
+            
+           //if (Bad.bad == true)
+           // {
+           //     Agarisin = false;
+           //     Bad.Destorthis();
+            //}
+            if (Reallygood.isheld == true && Reallygood.isGood == true)
+            {
+                Agarisin = false;
+                Reallygood.destorthis();
+            }
+
         }
+        
+    }
+
+    public void ResetTime()
+    {
         
     }
     public void Okdokie()
