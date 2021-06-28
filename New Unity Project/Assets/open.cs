@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Open : MonoBehaviour
 {
-
+    [SerializeField] bool isopned;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "AgarTop")
         {
+            clousedtop();
             Debug.Log("Close");
         }
     }
@@ -17,7 +18,20 @@ public class Open : MonoBehaviour
     {
         if(other.gameObject.tag == "AgarTop")
         {
+
+            Openedtop();
             Debug.Log("Open");
         }
     }
+
+  public  void Openedtop()
+    {
+        isopned = true;
+    }
+    public void clousedtop()
+    {
+        isopned = false;
+    }
+
+
 }

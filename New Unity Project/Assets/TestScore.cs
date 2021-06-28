@@ -14,11 +14,20 @@ public class TestScore : MonoBehaviour
     public Image background;
     public bool Showup = true;
     public GameObject Uibeingshown;
+    public GoodScript Reallygood;
+    public Isbad Bad;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        GameObject Isreallybad = GameObject.FindGameObjectWithTag("Bad");
+        Isbad isbad = Isreallybad.GetComponent<Isbad>();
+        Bad = isbad;
+
+        GameObject Good = GameObject.FindGameObjectWithTag("Pickupable");
+        Reallygood = Good.GetComponent<GoodScript>();
+
         Header.text = Score.name;
         description.text = Score.Discription;
         background.sprite = Score.background;
@@ -33,39 +42,45 @@ public class TestScore : MonoBehaviour
             Timer();
         }
 
-
-        if (Showup == true)
-        {
-            gameMasterscipt GM = GameObject.Find("GameMaster").GetComponent<gameMasterscipt>();
-            GM.Pause();
-        }
-
-        else
-        {
-            gameMasterscipt GM = GameObject.Find("GameMaster").GetComponent<gameMasterscipt>();
-            GM.unpause();
-        }
-
     }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Pickupable"))
         {
+            Bad.bad = true;
+
+            Reallygood.isGood = true;
             Agarisin = true;
             Debug.Log("AgarIsin");
-           // ScoreScritp.ScoreCOP += 1;
-           // ScoreScritp.ScoreAML -= 1;
+           
+
+            // ScoreScritp.ScoreCOP += 1;
+            // ScoreScritp.ScoreAML -= 1;
+            //ScoreScritp.ScoreCOT += 1;
+        }
+        if (other.CompareTag("Bad"))
+        {
+            Bad.bad = true;
+
+            
+            Agarisin = true;
+            Debug.Log("AgarIsin");
+
+
+            // ScoreScritp.ScoreCOP += 1;
+            // ScoreScritp.ScoreAML -= 1;
             //ScoreScritp.ScoreCOT += 1;
         }
     }
+
     public void Timer()
     {
         TimerToWin += Time.deltaTime;
-        if(TimerToWin >= 8.0f)
+        if(TimerToWin >= 3.0f)
         {
             Showup = true;
-            Uibeingshown.SetActive(true);
-           
+            Bad.Destorthis();
+            Reallygood.destorthis();
             ScoreScritp.ScoreCOT = +1;
         }
         
@@ -75,5 +90,7 @@ public class TestScore : MonoBehaviour
         Uibeingshown.SetActive(false);
         Showup = false;
     }
+
+   
 }
 
