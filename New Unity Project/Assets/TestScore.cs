@@ -80,6 +80,7 @@ public class TestScore : MonoBehaviour
         TimerToWin += Time.deltaTime;
         if(TimerToWin >= 3.0f)
         {
+            Reallygood.destorthis();
             Showup = true;
             Bad.Destorthis();
            // Reallygood.destorthis();
