@@ -16,19 +16,27 @@ public class TestScore : MonoBehaviour
     public GameObject Uibeingshown;
     public GoodScript Reallygood;
     public Isbad Bad;
+   
+    
+    
 
 
     // Start is called before the first frame update
     void Start()
-    {
-        GameObject Isreallybad = GameObject.FindGameObjectWithTag("Bad");
-        Isbad isbad = Isreallybad.GetComponent<Isbad>();
-        Bad = isbad;
 
+
+    {
         GameObject Good = GameObject.FindGameObjectWithTag("Pickupable");
         GoodScript good = Good.GetComponent<GoodScript>();
         Reallygood = good;
 
+
+        GameObject Isreallybad = GameObject.FindGameObjectWithTag("Bad");
+        Isbad isbad = Isreallybad.GetComponent<Isbad>();
+        Bad = isbad;
+
+       
+        
 
         Header.text = Score.name;
         description.text = Score.Discription;
@@ -51,9 +59,12 @@ public class TestScore : MonoBehaviour
             
             Reallygood.isGood = true;
             Agarisin = true;
-            Debug.Log("AgarIsin");
+           
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             Reallygood.destorthis();
 
+            Uibeingshown.SetActive(true);
              //ScoreScritp.ScoreCOP += 1;
              ScoreScritp.ScoreAML -= 1;
           
@@ -61,8 +72,10 @@ public class TestScore : MonoBehaviour
         if (other.CompareTag("Bad"))
         {
             Bad.bad = true;
-           
             
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+
             Agarisin = true;
             Debug.Log("AgarIsin");
 
@@ -96,10 +109,25 @@ public class TestScore : MonoBehaviour
     //}
     public void Okdokie()
     {
+        ;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         Uibeingshown.SetActive(false);
         Showup = false;
     }
+    IEnumerator Appeare()
+    {
+        yield return new WaitForSeconds(3);
+        Uibeingshown.SetActive(true);
 
-   
+    }
+    IEnumerator Dissapeare()
+    {
+        yield return new WaitForSeconds(2);
+        Uibeingshown.SetActive(false);
+
+    }
+
+
 }
 

@@ -12,37 +12,25 @@ public class Inkubator : MonoBehaviour
     public Image background;
     public GameObject Uishow;
     public bool Beingshowned = false;
-    
+    GameObject FPS;
     void Start()
     {
+        FPS = GameObject.Find("FPSController"); FPS.GetComponentInChildren<Camera>();
         Header.text = Incubator.name;
         description.text = Incubator.Discription;
         background.sprite = Incubator.background;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if(Beingshowned == true)
-        {
-            FirstPersonController FPS = GameObject.Find("FPSController").GetComponent<FirstPersonController>();
-
-            FPS.m_MouseLook.SetCursorLock(false);
-            FPS.m_MouseLook.UpdateCursorLock();
-        }
-        else
-        {
-            FirstPersonController FPS = GameObject.Find("FPSController").GetComponent<FirstPersonController>();
-
-            FPS.m_MouseLook.SetCursorLock(true);
-            FPS.m_MouseLook.UpdateCursorLock();
-        }
-    }
+   
+    
 
     private void OnTriggerEnter(Collider gotHit)
     {
         if (gotHit.CompareTag("Player"))
         {
+            FPS.SetActive(false);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             Uishow.SetActive(true);
             Beingshowned = true;
         }
@@ -52,9 +40,18 @@ public class Inkubator : MonoBehaviour
         
     }
 
+    public void Destroyit()
+    {
+        Destroy(gameObject);
+    }
+
     public void Okbutton()
     {
+        FPS.SetActive(true);
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         Beingshowned = false;
         Uishow.SetActive(false);
+        Destroyit();
     }
 }
