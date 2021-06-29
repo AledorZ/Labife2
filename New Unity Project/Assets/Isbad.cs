@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Isbad : MonoBehaviour
 {
-    public GameObject Me;
+   
     public bool bad = false;
     TestScore Testing;
 
@@ -19,7 +19,7 @@ public class Isbad : MonoBehaviour
     {
         ScoreScritp.ScoreCOT = +1;
         this.gameObject.SetActive(false);
-        Testing.Agarisin = false;
+       // Testing.Agarisin = false;
         bad = false;
     }
 

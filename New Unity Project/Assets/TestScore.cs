@@ -43,18 +43,14 @@ public class TestScore : MonoBehaviour
         {
             Timer();
         }
-        else
-        {
-            
-            TimerToWin = 0.0f;
-        }
+        
 
     }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Pickupable"))
         {
-            
+           
 
             Reallygood.isGood = true;
             Agarisin = true;
@@ -79,33 +75,26 @@ public class TestScore : MonoBehaviour
             //ScoreScritp.ScoreCOT += 1;
         }
     }
+    private void OnTriggerExit(Collider other)
+    {
+        Agarisin = false;
+    }
+
 
     public void Timer()
     {
         TimerToWin += Time.deltaTime;
         if(TimerToWin >= 3.0f)
+
         {
-            
-           
+            Agarisin = false;
+            TimerToWin = 0.0f;
+            Reallygood.destorthis();
             Showup = true;
-            
-           //if (Bad.bad == true)
-           // {
-           //     Agarisin = false;
-           //     Bad.Destorthis();
-            //}
-            if (Reallygood.isheld == true && Reallygood.isGood == true)
-            {
-                Agarisin = false;
-                Reallygood.destorthis();
-            }
-
+            //Bad.Destorthis();
+           
+            //ScoreScritp.ScoreCOT = +1;
         }
-        
-    }
-
-    public void ResetTime()
-    {
         
     }
     public void Okdokie()
