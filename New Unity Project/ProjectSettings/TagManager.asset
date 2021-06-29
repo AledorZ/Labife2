@@ -15,6 +15,7 @@ TagManager:
   - AgarTop
   - Bad
   - Trigger
+  - GameMaster
   layers:
   - Default
   - TransparentFX
