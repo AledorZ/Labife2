@@ -39,10 +39,7 @@ public class TestScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Agarisin == true)
-        {
-            Timer();
-        }
+       
         
 
     }
@@ -50,29 +47,29 @@ public class TestScore : MonoBehaviour
     {
         if (other.CompareTag("Pickupable"))
         {
-           
 
+            
             Reallygood.isGood = true;
             Agarisin = true;
             Debug.Log("AgarIsin");
-           
+            Reallygood.destorthis();
 
-            // ScoreScritp.ScoreCOP += 1;
-            // ScoreScritp.ScoreAML -= 1;
-            //ScoreScritp.ScoreCOT += 1;
+             //ScoreScritp.ScoreCOP += 1;
+             ScoreScritp.ScoreAML -= 1;
+          
         }
         if (other.CompareTag("Bad"))
         {
             Bad.bad = true;
-
+           
             
             Agarisin = true;
             Debug.Log("AgarIsin");
 
-
-            // ScoreScritp.ScoreCOP += 1;
-            // ScoreScritp.ScoreAML -= 1;
-            //ScoreScritp.ScoreCOT += 1;
+            
+           
+             ScoreScritp.ScoreAML -= 1;
+            ScoreScritp.ScoreCOT += 1;
         }
     }
     private void OnTriggerExit(Collider other)
@@ -81,22 +78,22 @@ public class TestScore : MonoBehaviour
     }
 
 
-    public void Timer()
-    {
-        TimerToWin += Time.deltaTime;
-        if(TimerToWin >= 3.0f)
+    //public void Timer()
+    //{
+    //    TimerToWin += Time.deltaTime;
+    //    if(TimerToWin >= 3.0f)
 
-        {
-            Agarisin = false;
-            TimerToWin = 0.0f;
-            Reallygood.destorthis();
-            Showup = true;
-            //Bad.Destorthis();
+    //    {
+    //        Agarisin = false;
+    //        TimerToWin = 0.0f;
+    //        Reallygood.destorthis();
+    //        Showup = true;
+    //        //Bad.Destorthis();
            
-            //ScoreScritp.ScoreCOT = +1;
-        }
+    //        //ScoreScritp.ScoreCOT = +1;
+    //    }
         
-    }
+    //}
     public void Okdokie()
     {
         Uibeingshown.SetActive(false);
