@@ -22,7 +22,7 @@ public class Discdispancer : MonoBehaviour
     {
         if (gameObject.GetComponent<Rigidbody>().isKinematic)
         {
-            Debug.Log("Cool");
+           
            
             
                     if (Input.GetKeyDown(KeyCode.T))
