@@ -8,7 +8,7 @@ public class TestScore : MonoBehaviour
 {
     public float TimerToWin = 0.0f;
     public bool Agarisin = false;
-    public Tutorial Score;
+    
     public Text Header;
     public Text description;
     public Image background;
@@ -16,7 +16,7 @@ public class TestScore : MonoBehaviour
     public GameObject Uibeingshown;
     public GoodScript Reallygood;
     public Isbad Bad;
-   
+    public GameObject FPS;
     
     
 
@@ -26,6 +26,7 @@ public class TestScore : MonoBehaviour
 
 
     {
+        FPS = GameObject.Find("FPSController"); FPS.GetComponentInChildren<Camera>();
         GameObject Good = GameObject.FindGameObjectWithTag("Pickupable");
         GoodScript good = Good.GetComponent<GoodScript>();
         Reallygood = good;
@@ -36,12 +37,10 @@ public class TestScore : MonoBehaviour
         Bad = isbad;
 
        
-        
 
-        Header.text = Score.name;
-        description.text = Score.Discription;
-        background.sprite = Score.background;
-        
+
+
+
     }
 
     // Update is called once per frame
@@ -59,7 +58,7 @@ public class TestScore : MonoBehaviour
             
             Reallygood.isGood = true;
             Agarisin = true;
-           
+            FPS.SetActive(false);
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
             Reallygood.destorthis();
@@ -109,7 +108,7 @@ public class TestScore : MonoBehaviour
     //}
     public void Okdokie()
     {
-        ;
+        FPS.SetActive(true);
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         Uibeingshown.SetActive(false);

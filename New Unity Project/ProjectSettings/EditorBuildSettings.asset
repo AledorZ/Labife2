@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Lablife/Lab life/Assets/Scenes/Playarea.unity
     guid: 53e9f1083fb0bba4a86907a0cb2fa44b
+  - enabled: 1
+    path: Assets/Lablife/Lab life/Assets/Scenes/Culture.unity
+    guid: b7f7ac981ec1b8b418758b9d5dd1bfd3
+  - enabled: 1
+    path: Assets/Lablife/Lab life/Assets/Scenes/SensitivityBad.unity
+    guid: ea5178ad4f7eaf5469b4ba0c97194a5d
+  - enabled: 1
+    path: Assets/Lablife/Lab life/Assets/Scenes/Sensitivity good.unity
+    guid: bd5e8337ed694414db4197bf7281d6d0
   m_configObjects: {}
