@@ -6,7 +6,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 
 public class TestScore : MonoBehaviour
 {
-    public float TimerToWin = 0.0f;
+    
     public bool Agarisin = false;
     
     public Text Header;
@@ -22,7 +22,7 @@ public class TestScore : MonoBehaviour
 
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
 
 
     {
@@ -54,7 +54,6 @@ public class TestScore : MonoBehaviour
     {
         if (other.CompareTag("Pickupable"))
         {
-
             
             Reallygood.isGood = true;
             Agarisin = true;
@@ -64,9 +63,17 @@ public class TestScore : MonoBehaviour
             Reallygood.destorthis();
 
             Uibeingshown.SetActive(true);
-             //ScoreScritp.ScoreCOP += 1;
-             ScoreScritp.ScoreAML -= 1;
-          
+            //ScoreScritp.ScoreCOP += 1;
+            ScoreScritp.ScoreAML -= 1;
+            if (other == null)
+            {
+                Debug.Log("playerObject.GetComponent returned null");
+
+            }
+            else
+            {
+                Debug.Log("playerObject.GetComponent returned not null");
+            }
         }
         if (other.CompareTag("Bad"))
         {

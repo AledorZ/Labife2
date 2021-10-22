@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Lablife/Lab life/Assets/Scenes/SplashScreen.unity
+    guid: 80b868a59917b1a4aa96a155bad20e39
+  - enabled: 1
     path: Assets/Lablife/Lab life/Assets/Scenes/Menu.unity
     guid: 8137e70f18a58404b97a2fc2a12a587d
   - enabled: 1

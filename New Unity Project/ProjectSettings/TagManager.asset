@@ -16,6 +16,7 @@ TagManager:
   - Bad
   - Trigger
   - GameMaster
+  - SFX
   layers:
   - Default
   - TransparentFX
